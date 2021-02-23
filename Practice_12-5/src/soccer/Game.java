@@ -18,7 +18,7 @@ public class Game {
         this.homeTeam = homeTeam;
         this.awayTeam = awayTeam;
         this.gameDate = gameDate.plusDays(7);
-        System.out.println(gameDate);
+        System.out.println(this.gameDate);
     }
     
     public void playGame(int maxGoals) {
